@@ -6,9 +6,9 @@ Note:
 
 ## Create API
 Song:
-url: http://127.0.0.1:5000/create/Song
-method : POST
-body :
+* url: http://127.0.0.1:5000/create/Song
+* method : POST
+* body :
 {
     "ID": 2, 
     "songName": "Faded_New", 
