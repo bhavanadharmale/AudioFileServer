@@ -17,10 +17,10 @@ Note:
 
 #########################################################
 
-Podcast:
-url: http://127.0.0.1:5000/create/Podcast
-method : POST
-body :
+### Podcast:
+* url: http://127.0.0.1:5000/create/Podcast
+* method : POST
+* body :
 {
     "ID": 1, 
     "podcastName": "Ted Talk-1", 
@@ -31,11 +31,10 @@ body :
 
 ########################################################
 
-Audiobook:
-url: http://127.0.0.1:5000/create/Audiobook
-method : POST
-body :
-
+### Audiobook:
+* url: http://127.0.0.1:5000/create/Audiobook
+* method : POST
+* body :
 {
     "ID": 1, 
     "title": "World War-II", 
@@ -47,47 +46,47 @@ body :
 
 
 ## Delete API : Example
-Song:
-url : http://127.0.0.1:5000/delete/Song/1
-method : POST
+### Song:
+* url : http://127.0.0.1:5000/delete/Song/1
+* method : POST
 
 #########################################################
 
-Podcast:
-url : http://127.0.0.1:5000/delete/Podcast/1
-method : POST
+### Podcast:
+* url : http://127.0.0.1:5000/delete/Podcast/1
+* method : POST
 
 ########################################################
 
-Audiobook:
-url : http://127.0.0.1:5000/delete/Audiobook/1
-method : POST
+### Audiobook:
+* url : http://127.0.0.1:5000/delete/Audiobook/1
+* method : POST
 
 ## Update API : Example
-Song:
-url : http://127.0.0.1:5000/update/Song/1
-method : POST
-body :
+### Song:
+* url : http://127.0.0.1:5000/update/Song/1
+* method : POST
+* body :
 {
     "songName": "Closer", 
 }
 
 #########################################################
 
-Podcast: 
-url : http://127.0.0.1:5000/update/Podcast/1
-method : POST
-body :
+### Podcast: 
+* url : http://127.0.0.1:5000/update/Podcast/1
+* method : POST
+* body :
 {
     "podcastName": "Ted Talk"
 }
 
 ########################################################
 
-Audiobook:
-url : http://127.0.0.1:5000/update/Audiobook/1
-method : POST
-body :
+### Audiobook:
+* url : http://127.0.0.1:5000/update/Audiobook/1
+* method : POST
+* body :
 {
     "title":"World War-II",
     "author":"Adolf Hitler",
@@ -96,24 +95,23 @@ body :
 
 
 ## get API : Example
-Song: 
-url-1 : http://127.0.0.1:5000/get/Song/1
-url-2 : http://127.0.0.1:5000/get/Song
-method : POST
+### Song: 
+* url-1 : http://127.0.0.1:5000/get/Song/1
+* url-2 : http://127.0.0.1:5000/get/Song
+* method : POST
 
 #########################################################
 
-Podcast:
-url-1 : http://127.0.0.1:5000/get/Podcast/1
-url-2 : http://127.0.0.1:5000/get/Podcast
-method: POST
+### Podcast:
+* url-1 : http://127.0.0.1:5000/get/Podcast/1
+* url-2 : http://127.0.0.1:5000/get/Podcast
+* method: POST
 
 ########################################################
 
-Audiobook:
-url-1 : http://127.0.0.1:5000/get/Audiobook/1
-url-2 : http://127.0.0.1:5000/get/Audiobook
-
-method : POST
+### Audiobook:
+* url-1 : http://127.0.0.1:5000/get/Audiobook/1
+* url-2 : http://127.0.0.1:5000/get/Audiobook
+* method : POST
 
 ########################################################
