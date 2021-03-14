@@ -60,10 +60,6 @@ class Audiobook(db.Model):
         self.uploadedTime = uploadedTime
 
 
-
-# @app.route('/')
-# def homePage():
-#     db.create_all()
 def getClassName(audioFileType):
     if audioFileType == "Song":
         return Song
