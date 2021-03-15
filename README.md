@@ -3,6 +3,10 @@
 Note: 
 1. uploadedTime will taken care by backend part, the value should be current date and time. And this value can't be editted
 2. In update user cannot update id and date_time
+## Pre-requisite:
+* Install XAMPP
+* enable apache and mysql server from XAMPP
+* create database "flask"
 
 ## Create API
 ### Song:
